@@ -1,6 +1,6 @@
 ## kafka 学习系列 02-kafka生产者
 
-![](/uploads/kafka/kafka_producer.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/kafka/kafka_producer.png)
 
 1. 创建一个ProductRecord对象(对象包含主题名称,分区,key,value).
 1. 把key和value 序列化成字节数组.

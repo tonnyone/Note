@@ -2,7 +2,7 @@
 
 为了横向伸缩,同属于一个组内的消费者只消费一个主题的部分消息，多个消费者可以对消息进行分流.Topic分区中消息只能由消费者组中的唯一个消费者处理(正常情况分区数量应该大于等于消费者数量,否则会有消费者会闲置)
 
-![](/uploads/kafka/kafka_consumer.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/kafka/kafka_consumer.png)
 
 <!--more-->
 
@@ -18,7 +18,7 @@
 
 分配分区的过程:
 
-![](/uploads/kafka/kafka_consumer2.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/kafka/kafka_consumer2.png)
 
 1. 当消费者要加入群组时，会向`群组协调器`发送一个JoinGroup 请求,第一个加入群组的消费者将成为`群主`
 2. 群主从协调器那里获得群组成员列表(列表中包含了最近发送心跳的消费者，它被认为时活跃的)，并负责给每个消费者分配分区。
