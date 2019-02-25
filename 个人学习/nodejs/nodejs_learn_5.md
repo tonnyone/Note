@@ -1,12 +1,12 @@
 # 一起学nodejs(写一个基于TCP/IP终端聊天系统)
 
-![test](/uploads/tcpip.gif)
+![test](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/nodejs/tcpip.gif)
 [源码地址](https://github.com/tonnyone/nodejs_practise/tree/master/tcp-ip)
 <!--more-->
 
 ## TCP/IP 协议回顾
 
-![三次握手四次挥手](/uploads/tcp-ip-process.png)
+![三次握手四次挥手](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/nodejs/tcp-ip-process.png)
 
 ### TCP
 
@@ -57,7 +57,7 @@
 
 ### 基于TCP 和 UDP 的应用协议
 
-![](/uploads/tcp_yingyong.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/nodejs/tcp_yingyong.png)
 
 ## nodejs 中 tcp/ip
 

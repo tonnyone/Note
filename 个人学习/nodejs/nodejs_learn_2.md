@@ -1,7 +1,7 @@
 # 一起学nodejs(微型文件系统实现)
 
 用nodejs实现一个命令行的文件系统查看工具。
-![](/uploads/test_filesystem.gif)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/nodejs/test_filesystem.gif)
 <!-- ![](https://note.youdao.com/yws/public/resource/7fb2090db7599db51497656dacc314de/xmlnote/BB7325F9803144E5A9D938400F0C8ECC/1141) -->
 
 <!-- more -->

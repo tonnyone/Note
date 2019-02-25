@@ -1,12 +1,12 @@
 # mongodb3.X 单机安装与配置
 
-![](/uploads/mongodb.jpg)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/mongodb/mongodb.jpg)
 
 ## 安装
 
-### 下载安装包
+### 下载安装包 
 
-[下载安装包](https://www.mongodb.com/download-center?jmp=docs&_ga=1.201102574.1776437196.1479373354#community "下载地址")
+[安装包](https://www.mongodb.com/download-center?jmp=docs&_ga=1.201102574.1776437196.1479373354#community "下载地址")
 
 我用的是社区版通用64位安装包(至于直接解压安装,还是用包管理器安装看个人习惯,大多数人应该是解压安装方便管理)
 

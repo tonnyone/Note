@@ -1,4 +1,4 @@
-![](/uploads/https/https.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/https.png)
 ## http通信有什么问题呢
 
 ### 1. 可能被窃听
@@ -22,13 +22,13 @@
 ## HTTPS如何解决上述三个问题
 
 HTTPS 只是在通信接口部分用 TLS（Transport Layer Security）协议代替而已。
-![](/uploads/https/https1.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/https1.png)
 
 SSL 和 TLS 的区别:
 > 传输层安全性协议（英语：Transport Layer Security，缩写作 TLS），及其前身安全套接层（Secure Sockets Layer，缩写作 SSL）是一种安全协议，目的是为互联网通信，提供安全及数据完整性保障。网景公司（Netscape）在1994年推出首版网页浏览器，网景导航者时，推出HTTPS协议，以SSL进行加密，这是SSL的起源。IETF将SSL进行标准化，1999年公布第一版TLS标准文件。随后又公布RFC 5246 （2008年8月）与 RFC 6176 （2011年3月）。以下就简称SSL
 
 **TLS是SSL的标准**. **HTTPS** 就是 **HTTP + SSL**
-![](/uploads/https/https_http.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/https_http.png)
 
 ### SSL 协议
 
@@ -39,7 +39,7 @@ SSL 和 TLS 的区别:
 常用的加密算法:`DES`、`AES` ,`RC2`,`RC4`
 优点：算法公开、计算量小、加密速度快、加密效率高。
 缺点：交易双方都使用同样钥匙，安全性得不到保证。
-![](/uploads/https/https2.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/https2.png)
 
 ##### 非对称加密技术
 
@@ -47,20 +47,20 @@ SSL 和 TLS 的区别:
 优点:安全性高
 缺点:速度慢
 
-![](/uploads/https/https3.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/https3.png)
 
 ##### 完整性验证算法
 
 HASH算法：`MD5`，`SHA1`，`SHA256`
 用作校验消息的完整性
-![](/uploads/https/tls_ssl.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/tls_ssl.png)
 
 #### SSL协议构成
 
 1. 第一层是Record Protocol, 用于定义传输格式。
 1. 第二层Handshake Protocol,它建立在SSL记录协议之上,用于在实际的数据传输开始前，通讯双方进行身份认证、协商加密算法、交换加密密钥等。
 
-![](/uploads/https/ssl_layout.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/ssl_layout.png)
 
 > 工作方式:
 > - 客户端使用非对称加密与服务器进行通信，实现身份验证并协商对称加密使用的密钥，
@@ -68,8 +68,8 @@ HASH算法：`MD5`，`SHA1`，`SHA256`
 
 ### SSL密钥协商的过程如下
 
-[点击查看大图](/uploads/https/https_ssl.svg)
-![](/uploads/https/https_ssl.svg)
+[点击查看大图](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/https_ssl.svg)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/https_ssl.svg)
 [来源](https://upload.wikimedia.org/wikipedia/commons/a/ae/SSL_handshake_with_two_way_authentication_with_certificates.svg)
 
 详细描述下流程,主要分为**四大步骤**(此处略繁琐,不关注细节的可以先略过):
@@ -117,11 +117,11 @@ d. Server发送Finishd，包含了前面所有握手消息的hash，可以让cli
 1. 进行ssl 协议的握手密钥交换(Handshake protocal)
 1. 然后通过共同约定的密钥开始通信
 
-![](/uploads/https/https_protocal.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/https_protocal.png)
 
 ### 上文说到的证书是个什么玩意儿
 
-![浏览器证书](/uploads/https/zhengshu_brower.png)
+![浏览器证书](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/zhengshu_brower.png)
 
 证书的作用就是,我和服务端通信,我怎么知道这个服务端是我要真正通信的服务端呢. 打个不恰当的比方:
 
@@ -130,11 +130,11 @@ d. Server发送Finishd，包含了前面所有握手消息的hash，可以让cli
 1. 一个是有可能遭到了中间人攻击(用户名和密码被黑客截获)
 1. 某宝收了你的钱，假装不承认,(抵赖)
 
-![](/uploads/https/https_gj.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/https_gj.png)
 
 #### 申请和发放证书流程如下：
 
-![](/uploads/https/zhengshu.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/zhengshu.png)
 
 1. 服务方 Server 向第三方机构CA提交公钥、组织信息、个人信息(域名)等信息并申请认证;
 
@@ -150,7 +150,7 @@ d. Server发送Finishd，包含了前面所有握手消息的hash，可以让cli
 
 #### 证书链
 
-![](/uploads/https/zhengshulian.png)
+![](https://tonny-1256210993.cos.ap-beijing.myqcloud.com/note/https/zhengshulian.png)
 
 1. 服务器证书 server.pem 的签发者为中间证书机构 inter，inter 根据证书 inter.pem 验证 server.pem 确实为自己签发的有效证书
 1. 中间证书 inter.pem 的签发 CA 为 root，root 根据证书 root.pem 验证 inter.pem 为自己签发的合法证书;
