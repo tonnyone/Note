@@ -6,11 +6,11 @@
 
 2. [mongodb3.x单机安装配置](https://github.com/tonnyone/note/blob/master/个人学习/mongodb_install.md)
 
-### java基础
+### JAVA基础
 
 1. [java并发](https://github.com/tonnyone/note/blob/master/个人学习/java基础/java并发.md)
 
-### kafka
+### KAFKA理论和实践
 
 1. [kafka技术研究1](https://github.com/tonnyone/note/blob/master/个人学习/kafka中间件/kafka.md)
 
@@ -24,7 +24,7 @@
 
 ## 读书笔记
 
-### javascript异步编程读书笔记
+### JAVASCRIPT异步编程读书笔记
 
 1. [1.深入理解javascript事件](https://github.com/tonnyone/note/blob/master/读书笔记/javascript异步编程/1深入理解javascript事件.md)
 2. [2.分布式事件](https://github.com/tonnyone/note/blob/master/读书笔记/javascript异步编程/2分布式事件.md)
